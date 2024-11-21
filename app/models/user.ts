@@ -35,7 +35,7 @@ export default class User extends compose(BaseModel, AuthFinder) {
   declare state: string
 
   @column()
-  declare country: String
+  declare country: string
 
   @column()
   declare cep: string
