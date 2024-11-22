@@ -17,7 +17,7 @@ export default class extends BaseSchema {
       table.string('state', 256)
       table.string('country', 256)
       table.string('cep', 20).notNullable()
-      table.string('numberHouse', 10).notNullable()
+      table.string('number_house', 10).notNullable()
       table.string('complement', 256).nullable()
 
       table.timestamp('created_at').notNullable()
